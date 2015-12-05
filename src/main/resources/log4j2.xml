@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+	<Appenders>
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{DEFAULT} %-5p [%t] (%c{1}) %m%n"/>
+		</Console>
+
+		<File name="MainLog" fileName="logs/application.log" bufferedIO="true">
+			<PatternLayout pattern="%d{DEFAULT} %-5p [%t] (%c{1}) %m%n"/>
+		</File>
+
+		<File name="ServerLog" fileName="logs/server.log" bufferedIO="true">
+			<PatternLayout pattern="%d{DEFAULT} %-5p [%t] (%c{1}) %m%n"/>
+		</File>
+
+	</Appenders>
+
+	<Loggers>
+
+		<Logger name="org.novula" level="TRACE" additivity="false">
+			<AppenderRef ref="MainLog" />
+		</Logger>
+
+		<Root level="ERROR">
+			<AppenderRef ref="ServerLog" />
+		</Root>
+
+	</Loggers>
+
+</Configuration>
