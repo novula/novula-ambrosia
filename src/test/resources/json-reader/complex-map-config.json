@@ -1,0 +1,45 @@
+{
+  "number": 12,
+  "list": [
+    45.15365,
+    {
+      "one": true
+    },
+    null,
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "string": "string",
+  "null": null,
+  "map": {
+    "first": 4,
+    "last": false,
+    "list": [
+      "a",
+      "b",
+      true,
+      "c",
+      {
+        "un": "one"
+      },
+      [
+        true,
+        false,
+        false
+      ],
+      "d"
+    ]
+  },
+  "bool": true,
+  "nested list": [
+    [
+      [
+        42
+      ]
+    ]
+  ],
+  "float": 0.625
+}

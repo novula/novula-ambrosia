@@ -1,0 +1,11 @@
+[
+  12,
+  "a string",
+  null,
+  {
+    "first": 4,
+    "last": false
+  },
+  true,
+  0.625
+]

@@ -1,0 +1,45 @@
+[
+  12,
+  [
+    45.15365,
+    {
+      "one": true
+    },
+    null,
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "string",
+  null,
+  {
+    "first": 4,
+    "last": false,
+    "list": [
+      "a",
+      "b",
+      true,
+      "c",
+      {
+        "un": "one"
+      },
+      [
+        true,
+        false,
+        false
+      ],
+      "d"
+    ]
+  },
+  true,
+  [
+    [
+      [
+        42
+      ]
+    ]
+  ],
+  0.625
+]
